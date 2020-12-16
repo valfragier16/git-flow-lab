@@ -6,7 +6,7 @@ The purpose of this lab is to teach a simplified version of git-flow to help beg
 ## Create a git repository locally
 
 ```none
-mkdir /Users/$(whoami)/git-flow-practice
+mkdir /Users/$(whoami)/git-flow-practic
 cd /Users/$(whoami)/git-flow-practice
 git init
 ```
@@ -42,7 +42,7 @@ git remote -v
 3. Push local changes to remote repository.
 
 ```
-git push -u origin master
+git push -u origin main
 ```
 
 
@@ -193,17 +193,17 @@ git push origin feature_two
 7. Optionally delete feature_two branch from remote and local repos.
 
 
-## Open Pull Request For Develop To Master
+## Open Pull Request For Develop To Main
 
 All of the work from feature one and feature two are now integrated in the develop branch. 
 
-Open a pull request to get the work from the develop branch to the master branch.
+Open a pull request to get the work from the develop branch to the main branch.
 
 Review the pull request and merge it.
 
 
 ## Key take aways:
 
-1. No one ever pushes directly to master or develop branches. Changes to these two branches are introduced only through pull requests.
+1. No one ever pushes directly to main or develop branches. Changes to these two branches are introduced only through pull requests.
 2. Feature branches open pull requests against develop.
-3. Develop branch opens pull requests against master.
+3. Develop branch opens pull requests against main.
